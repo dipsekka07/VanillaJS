@@ -1,0 +1,36 @@
+.user-card{
+    font-family:  'Arial', sans-serif;
+    background: lightgoldenrodyellow;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    margin-bottom: 15px;
+    border-bottom: 5px solid purple;
+    border-top: 5px solid lightgrey;
+    border-right: 5px solid lightgrey;
+    border-radius: 1px;
+} 
+
+.user-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.user-card slot{
+    font-size: 12px;
+    padding-bottom: 2px ;
+    color: blue;
+}
+
+.info.show-info {
+    display: block;
+}
+
+.info {
+    display: none;
+}
+
+#toggle-info {
+    margin: 5px 0px 5px 0px;
+}

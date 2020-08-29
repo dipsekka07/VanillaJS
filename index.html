@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Components Example</title>
+    </head>
+    <body>
+        <h3> Hello World !!! </h3>
+        <user-card name="Rock Concert" picture="https://images.unsplash.com/photo-1468231300737-ecd13d75ce6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+        <div slot="email">rcagent@booking.com</div>
+        <div slot="phone">345-234-2345</div>
+        </user-card>
+
+        <user-card name="Sight Seeing" picture="https://images.freeimages.com/images/small-previews/338/sunset-over-lake-2-1377767.jpg" >
+            <div slot="email">ssagent@booking.com</div>
+            <div slot="phone">234-354-2345</div>
+        </user-card>
+
+        <script src="userCard.js"></script>
+    </body>
+</html>
